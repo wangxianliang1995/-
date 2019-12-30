@@ -1,10 +1,6 @@
 <template>
   <div class="login-container">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
-
-      <!-- <div class="title-container">
-        <h3 class="title">Login Form</h3>
-      </div> -->
       <div class="pic-index">
         <img class="pic-index" src="@/assets/index.png" alt="index">
       </div>
@@ -22,7 +18,6 @@
           auto-complete="on"
         />
       </el-form-item>
-
       <el-form-item prop="password">
         <span class="svg-container">
           <svg-icon icon-class="password" />
@@ -42,15 +37,7 @@
           <svg-icon :icon-class="passwordType === 'password' ? 'eye' : 'eye-open'" />
         </span>
       </el-form-item>
-      
-
       <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">登录</el-button>
-
-      <!-- <div class="tips">
-        <span style="margin-right:20px;">username: admin</span>
-        <span> password: any</span>
-      </div> -->
-
     </el-form>
   </div>
 </template>
@@ -209,7 +196,7 @@ $image:('~@/./assets/bg.jpg');
   min-height: 100%;
   width: 100%;
   // background-color: $bg;
-  background-image:url($image); 
+  background-image:url($image);
   overflow: hidden;
 
   .login-form {
