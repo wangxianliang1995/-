@@ -1,4 +1,4 @@
-import { getPatientInfo, exitAccount, getFirstRecord, getdrugadd, getMyOrders, getOrdersInfo, getDoctorsadvice, endInquiry, getIntegralInfo, getQuery } from '@/api/inquiry'
+import { getPatientInfo, exitAccount, exitAccount,getFirstRecord, getdrugadd, getMyOrders, getOrdersInfo, getDoctorsadvice, endInquiry, getIntegralInfo, getQuery } from '@/api/inquiry'
 
 const actions = {
   exitAccount({ commit }, data) {
