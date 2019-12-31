@@ -1,10 +1,10 @@
-<template>
+﻿<template>
   <div class="login-container">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
       <div class="pic-index">
         <img class="pic-index" src="@/assets/index.png" alt="index">
       </div>
-      <el-form-item prop="username">
+   123   <el-form-item prop="username">
         <span class="svg-container">
           <svg-icon icon-class="user" />
         </span>
