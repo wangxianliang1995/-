@@ -20,7 +20,7 @@
             <el-input v-model="form.age" readonly="true"></el-input>
           </el-form-item>
         </el-col>
-      </el-row>1233
+      </el-row>
       <el-row>
         <el-col :span="8">
           <el-form-item label="患病时长:">
@@ -48,6 +48,7 @@
           </el-form-item>
         </el-col>
       </el-row>
+
       <div class="call-container" style="margin-down:15px;" align="left">
         <span>诊断</span>
       </div>
