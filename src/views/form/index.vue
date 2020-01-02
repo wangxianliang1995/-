@@ -57,7 +57,7 @@ export default {
         name: '',
         region: '',
         date1: '',
-        date2: '',
+        date2: '5678',
         delivery: false,
         type: [],
         resource: '',
