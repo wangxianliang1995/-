@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="app-container">
     <el-table
       v-loading="listLoading"
@@ -49,6 +49,7 @@ export default {
       listLoading: true
     }
   },
+abcd
   created() {
     let docId = ''
     debugger;

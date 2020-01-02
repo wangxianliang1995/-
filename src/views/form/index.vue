@@ -61,7 +61,7 @@ export default {
         delivery: false,
         type: [],
         resource: '',
-        desc: ''
+        desc: '123444'
       }
     }
   }
