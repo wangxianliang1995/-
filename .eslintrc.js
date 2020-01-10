@@ -1,4 +1,8 @@
 module.exports = {
+    extends: 'eslint:recommended',
+    rules: {
+      'no-console': 'off',
+    },
   root: true,
   parserOptions: {
     parser: 'babel-eslint',

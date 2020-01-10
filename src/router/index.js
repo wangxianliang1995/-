@@ -113,19 +113,6 @@ export const constantRoutes = [
       }
     ]
   },
-  {
-    path: '/inquired',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        name: 'Inquired',
-        component: () => import('@/views/inquired/index'),
-        meta: { title: '已诊', icon: 'form' }
-      }
-    ],
-    hidden: true
-  },
 
   {
     path: '/patientInfo',
@@ -208,6 +195,22 @@ export const constantRoutes = [
     ],
     hidden: true
   },
+
+  {
+    path: '/PurchaseContract',
+    component: Layout,
+    redirect: '/conpany contract/purchase contract',
+    name: 'MyInformation',
+    children: [
+      {
+        path: '/purchase contract',
+        name: 'purchase contract',
+        component: () => import('@/views/conpany contract/purchase contract'),
+        meta: { title: '合同样式', icon: 'table' }
+      }
+    ]
+  },
+
   {
     path: '/inquirydetail',
     component: Layout,
