@@ -21,7 +21,7 @@
     "js-cookie": "2.2.0",
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
-    "path-to-regexp": "2.4.0",
+    "path-to-regexp": "8.0.0",
     "stylus-loader": "^3.0.2",
     "tim-js-sdk": "^2.2.1",
     "vue": "2.6.10",
